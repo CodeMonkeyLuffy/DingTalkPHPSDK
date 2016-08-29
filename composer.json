@@ -1,0 +1,27 @@
+{
+    "name": "CodeMonkeyLuffy/DingTalkPHPSDK",
+    "description": "钉钉服务端Api调用sdk php版",
+    "homepage": "https://github.com/CodeMonkeyLuffy/DingTalkPHPSDK",
+    "license": "MIT",
+    "keywords": ["http", "dingtalk", "php","api"],
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "CodeMonkeyLuffy",
+            "email": "CodeMonkeyLuffy@Gmail.com",
+            "homepage": "http://codemonkeyluffy.github.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "TimeCheer": "src/"
+        }
+    },
+    "require": {
+        "nategood/httpful": "^0.2.20"
+    }
+}
